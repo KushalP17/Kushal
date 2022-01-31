@@ -1,0 +1,50 @@
+body,html{
+margin: 0;
+padding: 0;
+height:100%;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+background-color: gray;
+}
+.Wrapper{
+  display: flex;
+  flex-direction: row;
+  width:400vw
+}
+.Slide{
+  width: 100vw;
+  height: 100vh;
+}
+.Hero{
+  width: 10vw;
+  background-image: url("Kushal.png");
+  height: auto;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.Name{
+  background-color: #be97cf;
+  text-align: center;
+}
+.Self{
+  background-color: #9e97cf;
+  text-align: center;
+}
+.Values{
+  background-color: #97b3cf;
+  text-align: center;
+}
+.TwineGame{
+  background-color: #97cfbe;
+  text-align: center;
+}
+.ImaginaryApp{
+  background-color: #a19768;
+  text-align: center;
+}
+.Video{
+  background-color: #a17668;
+  text-align: center;
+}
