@@ -1,50 +1,133 @@
 body,html{
 margin: 0;
 padding: 0;
-height:100%;
+height: 75vh;
 font-family: Verdana, Helvetica, Arial, sans-serif;
-background-color: gray;
+
+}
+.Hero{
+  background-image: url("");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 1200px;
+  height: 90vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 .Wrapper{
   display: flex;
   flex-direction: row;
-  width:400vw
+  width:780vw;
+  opacity: 1;
 }
+
 .Slide{
-  width: 100vw;
+  width: 175vw;
   height: 100vh;
 }
-.Hero{
-  width: 10vw;
-  background-image: url("Kushal.png");
-  height: auto;
-  background-attachment: fixed;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+
+.Spacer{
+  height:75vh;
+  width:19vw;
 }
+
 .Name{
-  background-color: #be97cf;
+  /*background-color: #be97cf;*/
   text-align: center;
+  background-image: linear-gradient(to right, rgba(238,165,222,1),rgba(218,165,238,1));
 }
 .Self{
-  background-color: #9e97cf;
+  /*background-color: #9e97cf;*/
   text-align: center;
+  background-image: linear-gradient(to right, rgba(218,165,238,1),rgba(181, 165, 238,1));
 }
 .Values{
-  background-color: #97b3cf;
+  /*background-color: #97b3cf;*/
   text-align: center;
+  background-image: linear-gradient(to right, rgba(181, 165,238,1), rgba(165, 210, 238,1));
 }
 .TwineGame{
-  background-color: #97cfbe;
+/*  background-color: #97cfbe;*/
   text-align: center;
+  background-image: linear-gradient(to right, rgba(165, 210, 238,1), rgba(165, 238, 206,1));
 }
 .ImaginaryApp{
-  background-color: #a19768;
+/*  background-color: #a19768;*/
   text-align: center;
+  background-image: linear-gradient(to right, rgba(165, 238, 206,1),rgba(206, 222, 161,1));
 }
 .Video{
-  background-color: #a17668;
+  /*background-color: #a17668;*/
   text-align: center;
+  background-image: linear-gradient(to right, rgba(206, 222, 161,1), rgba(222, 188, 161,1));
+}
+.baby{
+  background-image: url("babykush.jpg");
+}
+.family{
+  background-image: url("familykush.jpg");
+}
+.ice{
+  background-image: url("icekush.jpg");
+}
+.mattress{
+  background-image: url("mattresskush.jpg");
+}
+.grad{
+  background-image: url("gradkush.jpg");
+}
+.Kush1{
+  background-position: center;
+  background-image: url("Kushman.png");
+  width: 9vw;
+}
+.Kush2{
+  background-position: 75% 50%;
+  background-image: url("Kushman.png");
+  width: 13.7vw;
+}
+.Spacer2{
+  width: 12vw;
+  height: 75vh;
+}
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.column{
+  flex:25%;
+  max-width:30%;
+}
+.rows{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 4px;
+}
+.columns{
+  flex:50%;
+  max-width:30%;
+  padding: 0 4px;
+}
+.columns img {
+  vertical-align: middle;
+  width: 55%;
+  margin-top: 8px;
+}
+.vl{
+  border-left: 3px solid black;
+  height: 110px;
+  position: absolute;
+  left: 842px;
+  down: 50%;
+  margin-left: 0px;
+  top: 77%;
+}
+.resume img{
+  width: 50%;
+  margin-top: 30px;
 }
