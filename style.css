@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 height: 75vh;
 font-family: Verdana, Helvetica, Arial, sans-serif;
+color: white;
 
 }
 .Hero{
@@ -37,32 +38,32 @@ font-family: Verdana, Helvetica, Arial, sans-serif;
 .Name{
   /*background-color: #be97cf;*/
   text-align: center;
-  background-image: linear-gradient(to right, rgba(238,165,222,1),rgba(218,165,238,1));
+  background-image: linear-gradient(to right, #1D330E, #728F66);
 }
 .Self{
   /*background-color: #9e97cf;*/
   text-align: center;
-  background-image: linear-gradient(to right, rgba(218,165,238,1),rgba(181, 165, 238,1));
+  background-image: linear-gradient(to right, #728F66, #C6EBBE);
 }
 .Values{
   /*background-color: #97b3cf;*/
   text-align: center;
-  background-image: linear-gradient(to right, rgba(181, 165,238,1), rgba(165, 210, 238,1));
+  background-image: linear-gradient(to right, #C6EBBE, #A790A5);
 }
 .TwineGame{
 /*  background-color: #97cfbe;*/
   text-align: center;
-  background-image: linear-gradient(to right, rgba(165, 210, 238,1), rgba(165, 238, 206,1));
+  background-image: linear-gradient(to right, #A790A5, #61304B);
 }
 .ImaginaryApp{
 /*  background-color: #a19768;*/
   text-align: center;
-  background-image: linear-gradient(to right, rgba(165, 238, 206,1),rgba(206, 222, 161,1));
+  background-image: linear-gradient(to right, #61304B, #5C0029);
 }
 .Video{
   /*background-color: #a17668;*/
   text-align: center;
-  background-image: linear-gradient(to right, rgba(206, 222, 161,1), rgba(222, 188, 161,1));
+  background-image: linear-gradient(to right, #5C0029, #4C3B4D);
 }
 .baby{
   background-image: url("babykush.jpg");
@@ -119,7 +120,7 @@ font-family: Verdana, Helvetica, Arial, sans-serif;
   margin-top: 8px;
 }
 .vl{
-  border-left: 3px solid black;
+  border-left: 3px solid white;
   height: 110px;
   position: absolute;
   left: 842px;
